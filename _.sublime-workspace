@@ -1,0 +1,243 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Snippet: theme",
+				"Snippet: hook_theme"
+			],
+			[
+				"drua",
+				"Goto Drupal API"
+			],
+			[
+				"drupa",
+				"Goto Drupal API"
+			],
+			[
+				"drupal",
+				"Goto Drupal API"
+			],
+			[
+				"gis",
+				"Gist: Create Private Gist"
+			],
+			[
+				"gist",
+				"Gist: Update File"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 175.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lajlev/web/test/middleman/source/layouts/layout.haml",
+		"/Users/lajlev/.middleman/foundation/config.rb",
+		"/Users/lajlev/.bash_profile",
+		"/Users/lajlev/.middleman/foundation/source/scripts/app.js",
+		"/Users/lajlev/.middleman/foundation/source/scripts/vendor/zepto.js",
+		"/Users/lajlev/.middleman/foundation/source/scripts/app.js.coffee",
+		"/Users/lajlev/.middleman/foundation/source/humans.txt",
+		"/Users/lajlev/web/victor/config.rb",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/cyberhus.info",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/37EF909F-A4B3-4431-AF54-D08054115E61/header.php",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/C2D1220B-3145-4704-A896-1BD87B64883A/index.php",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/EAF82B25-FE14-4370-ABF1-584D2C06846A/style.css",
+		"/Users/lajlev/web/cfdp.dk/wordpress/wp-content/themes/cfdp/mennesker.php",
+		"/Users/lajlev/web/cfdp.dk/wordpress/wp-content/themes/cfdp/single.php",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/sass/global.scss",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/template.php",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/sass/cyberhus-alpha-default-wide.scss",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/sass/cyberhus-alpha-default.css",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/sass/cyberhus-alpha-default-narrow.scss",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/sass/cyberhus-alpha-default-normal.scss",
+		"/Users/lajlev/web/ch3/.gitignore",
+		"/Users/lajlev/Desktop/opentok.html",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/sass/_views.scss",
+		"/Users/lajlev/web/scripts/drupal_permissions.sh",
+		"/Users/lajlev/web/ch3/.htaccess",
+		"/Users/lajlev/web/ungokonomi/sites/all/themes/ungoko/less/ungoko-style.less",
+		"/Users/lajlev/web/ungokonomi/sites/default/files/.htaccess",
+		"/Users/lajlev/web/cfdp.dk/wordpress/wp-content/uploads/.htaccess",
+		"/Users/lajlev/web/ungokonomi/.gitignore",
+		"/Users/lajlev/web/ch3/sites/default/files/.htaccess",
+		"/Users/lajlev/Desktop/embed.html",
+		"/Users/lajlev/Library/Caches/Cleanup At Startup/Transmit/13C81A1B-E4E3-42A4-94A7-19246E6BE18F/authorized_keys",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/drupalize/node.tpl.php",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/drupalize/page.tpl.php",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/drupalize/node--article.tpl.php",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/drupalize/drupalize.info",
+		"/Users/lajlev/web/test/drupal/modules/system/page.tpl.php",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/drupalize/css/960.css",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/drupalize/css/main.css",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/drupalize/css/screen.css",
+		"/Users/lajlev/web/cfdp.dk/wordpress/wp-content/themes/cfdp/style.css",
+		"/Users/lajlev/web/cfdp.dk/wordpress/.gitignore",
+		"/Users/lajlev/web/ch3/sites/all/themes/cyberhus/js/custom_settings.js",
+		"/Users/lajlev/Desktop/cyberhus stuen/cyberhus.info",
+		"/Users/lajlev/web/cfdp.dk/wordpress/wp-config.php",
+		"/Users/lajlev/Desktop/settings.php",
+		"/Users/lajlev/web/aaarco.dk/root_path.php",
+		"/Users/lajlev/web/test/drupal/sites/all/themes/lajlev/lajlev.info",
+		"/Applications/CFDPmail.app/Contents/Info.plist",
+		"/Users/lajlev/web/cfdp.dk/wordpress/change-permissions.php",
+		"/Users/lajlev/.ssh/id_rsa.pub",
+		"/Users/lajlev/web/aaabc1900.dk/wordpress/wp-content/themes/abc1900/footer.php",
+		"/Users/lajlev/web/cfdp.dk/wp-admin/includes/file.php",
+		"/Users/lajlev/web/aaabc1900.dk/wordpress/wp-content/themes/abc1900/page-home.php",
+		"/Users/lajlev/web/aaabc1900.dk/wordpress/wp-content/themes/abc1900/js/foundation/foundation.topbar.js",
+		"/Users/lajlev/web/aaabc1900.dk/wordpress/wp-content/themes/abc1900/single.php",
+		"/Users/lajlev/web/aaarco.dk/config.php",
+		"/Users/lajlev/web/aaabc1900.dk/wordpress/wp-content/themes/abc1900/header.php",
+		"/Users/lajlev/web/aaabc1900.dk/wordpress/wp-content/themes/abc1900/scss/style.scss",
+		"/Users/lajlev/web/test/wordpress/wp-content/plugins/reviews.php",
+		"/Users/lajlev/web/test/wordpress/wp-content/plugins/ranktangle.php",
+		"/Users/lajlev/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lajlev/web/aaabc1900.dk/wordpress/wp-content/themes/abc1900/functions.php",
+		"/private/etc/php.ini",
+		"/Users/lajlev/web/aaabc1900.dk/whoami.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".node-unpublished",
+			"Hook",
+			"forsi",
+			"autho",
+			"aut",
+			"src",
+			"css",
+			"vspace",
+			"mysql"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 373.0,
+	"status_bar_visible": true
+}
