@@ -1,45 +1,179 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
-@import "normalize";
+@import "vendor/reset";
 
-// This includes all of the foundation global elements that are needed to work with any of the other files.
-@import "foundation/variables";
+@import "compass/css3";
+@import "mixins";
 
-// Foundation Components
-@import
-  "foundation/components/global",
-  "foundation/components/grid",
-  "foundation/components/visibility",
-  "foundation/components/block-grid",
-  "foundation/components/type",
-  "foundation/components/buttons",
-  "foundation/components/forms",
-  "foundation/components/custom-forms",
-  "foundation/components/button-groups",
-  "foundation/components/dropdown-buttons",
-  "foundation/components/split-buttons",
-  "foundation/components/flex-video",
-  "foundation/components/section",
-  "foundation/components/top-bar",
-  "foundation/components/orbit",
-  "foundation/components/reveal",
-  "foundation/components/joyride",
-  "foundation/components/clearing",
-  "foundation/components/alert-boxes",
-  "foundation/components/breadcrumbs",
-  "foundation/components/keystrokes",
-  "foundation/components/labels",
-  "foundation/components/inline-lists",
-  "foundation/components/pagination",
-  "foundation/components/panels",
-  "foundation/components/pricing-tables",
-  "foundation/components/progress-bars",
-  "foundation/components/side-nav",
-  "foundation/components/sub-nav",
-  "foundation/components/switch",
-  "foundation/components/magellan",
-  "foundation/components/tables",
-  "foundation/components/thumbs",
-  "foundation/components/tooltips",
-  "foundation/components/dropdown";
+$cta-color: #00a3cc;
+
+body {
+  background: #1c1f23;
+  font-family: "brandon-grotesque", sans-serif;
+  color: #cbced3;
+}
+
+a {
+  text-decoration: none;
+
+  &.btn {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    padding: 18px 24px;
+    text-transform: uppercase;
+    @include border-radius(42px); }
+
+  &.btn-subtle {
+    color: #cbced3;
+    border: 2px solid #cbced3;
+    display: block;
+
+    &:hover {
+      background: #f96138;
+    }
+  }
+  &.btn-cta {
+    background: $cta-color;
+
+    &:hover {
+      background: #0093B8;
+    }
+  }
+}
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+
+article p {
+  font-size: 20px;
+  font-family: "ff-tisa-web-pro", serif;
+  font-weight: 400;
+  line-height: 36px;
+
+  a {
+    color: $cta-color;
+
+    &:hover {
+      color: darken($cta-color, 5%);
+    }
+  }
+}
+
+ul li {
+  list-style-type: none;
+}
+
+//// Layout ////
+
+header {
+  padding: 50px;
+  text-align: center;
+  position: relative;
+
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #cbced3;
+  font-size: 14px;
+
+  ul.top-menu {
+    margin-top: 15px;
+    position: absolute;
+    left: 50px; top: 50px;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+
+      a {
+        color: #cbced3;
+        display: block;
+        padding: 8px 10px;
+
+        @include border-radius(20px);
+
+        &:hover, &.active {
+          background: #25292e;
+        }
+      }
+    }
+  } //.top-menu
+
+  img.logo {
+    display: block;
+    width: 58px;
+    margin: 0px auto;
+  }
+
+
+  .btn-subtle {
+    margin-top: 3px;
+    position: absolute;
+    right: 50px; top: 50px;
+  }
+}
+
+footer {
+  background: #1c1f23;
+}
+
+//// Work page ////
+
+section.shots {
+  margin: 40px auto 100px;
+  max-width: 1020px;
+  text-align: center;
+
+  a {
+    padding: 20px;
+    display: inline-block;
+  }
+}
+
+section.social {
+  text-align: center;
+  @include clearfix;
+
+  .inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    @include clearfix;
+    padding: 100px 20px 120px; }
+
+  .meta-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block; }
+
+  img {
+    display: inline-block; }
+
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+    @include clearfix; }
+
+  .btn-cta {
+    margin-top: 35px;
+  }
+
+
+  li.twitter {
+    h2 {
+      margin-top: 10px;
+    }
+  }
+
+
+
+
+}
