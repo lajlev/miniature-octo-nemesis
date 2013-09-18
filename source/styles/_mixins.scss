@@ -44,37 +44,37 @@ $cta-color: #00a3cc;
     float: left;
   }
 
-  .dots {
-    position: relative;
-    top: 480px;
-    z-index: 999;
-    //@media( max-width: 400px) {display: none;}
+  // .dots {
+  //   position: relative;
+  //   top: 480px;
+  //   z-index: 999;
+  //   //@media( max-width: 400px) {display: none;}
 
 
-    li {
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      margin: 0 4px;
+  //   li {
+  //     display: inline-block;
+  //     width: 12px;
+  //     height: 12px;
+  //     margin: 0 4px;
 
-      text-indent: -9999em;
+  //     text-indent: -9999em;
 
-      border: 1px solid #4d535b;
-      border-radius: 6px;
+  //     border: 1px solid #4d535b;
+  //     border-radius: 6px;
 
-      cursor: pointer;
-      opacity: .4;
+  //     cursor: pointer;
+  //     opacity: .4;
 
-      -webkit-transition: background .5s, opacity .5s;
-      -moz-transition: background .5s, opacity .5s;
-      transition: background .5s, opacity .5s;
+  //     -webkit-transition: background .5s, opacity .5s;
+  //     -moz-transition: background .5s, opacity .5s;
+  //     transition: background .5s, opacity .5s;
 
-      &.active {
-        background: #cfd2d7;
-        opacity: 1;
-      }
-    }
-  } //.dots
+  //     &.active {
+  //       background: #cfd2d7;
+  //       opacity: 1;
+  //     }
+  //   }
+  // } //.dots
 
     .unslider-arrow {
       z-index: 9999;
@@ -87,12 +87,10 @@ $cta-color: #00a3cc;
       padding: 40px;
       position: absolute;
       top: 40px;
+      @include transition(background 0.1s linear);
 
-      @media( max-width: 800px) {
-        top: 300px;
-        height: 58px;
-        width: 58px;
-        padding: 10px 5px;
+      @media( max-width: 960px) {
+        display: none;
       }
 
       &:hover, &:active {

@@ -74,7 +74,10 @@ ul li {
 //// Layout ////
 
 header {
-  padding: 50px;
+  @media( min-width:768px) {
+    padding: 50px;
+  }
+  padding: 20px;
   text-align: center;
   position: relative;
 
@@ -84,9 +87,13 @@ header {
   font-size: 14px;
 
   ul.top-menu {
-    margin-top: 15px;
-    position: absolute;
-    left: 50px; top: 50px;
+    margin-top: 80px;
+
+    @media( min-width:768px) {
+      margin-top: 15px;
+      position: absolute;
+      left: 50px; top: 50px;
+    }
 
     li {
       display: inline-block;
@@ -96,6 +103,8 @@ header {
         color: #cbced3;
         display: block;
         padding: 8px 10px;
+        @include transition-property(background);
+        @include transition-duration(0.1s);
 
         @include border-radius(20px);
 
@@ -109,7 +118,20 @@ header {
   img.logo {
     display: block;
     width: 58px;
+    height: 58px;
     margin: 0px auto;
+    @include transition-property(transform);
+    @include transition-duration(0.7s);
+    overflow:hidden;
+
+    @media( min-width:768px) {
+      top: -110px;
+      position: relative;
+    }
+
+    &:hover {
+      @include rotate(360deg);
+    }
   }
 
 
@@ -117,11 +139,26 @@ header {
     margin-top: 3px;
     position: absolute;
     right: 50px; top: 50px;
+    @include transition-property(background);
+    @include transition-duration(0.2s);
   }
 }
 
 footer {
   background: #1c1f23;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #cbced3;
+  font-size: 14px;
+
+  .copyright {
+    position: absolute;
+    left: 50px; top: 50px;
+  }
 }
 
 //// Work page ////
@@ -134,6 +171,11 @@ section.shots {
   a {
     padding: 20px;
     display: inline-block;
+
+    img {
+      width: 200px;
+      height: 150px;
+    }
   }
 }
 
@@ -164,6 +206,8 @@ section.social {
 
   .btn-cta {
     margin-top: 35px;
+    @include transition-property(background);
+    @include transition-duration(0.1s);
   }
 
 
@@ -173,6 +217,12 @@ section.social {
     }
   }
 
+  li.instagram {
+    .instagram-image {
+      width: 153px;
+      height: 153px;
+    }
+  }
 
 
 
