@@ -5,7 +5,7 @@
 /.sass-cache
 
 # Ignore the build directory
-/public
+/build
 
 # Ignore components directory. Will need to change this if you change bower's install path
 /components
