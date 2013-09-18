@@ -1,0 +1,312 @@
+/* line 17, /Users/lajlev/web/victor/source/styles/vendor/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 31, /Users/lajlev/web/victor/source/styles/vendor/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 34, /Users/lajlev/web/victor/source/styles/vendor/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 37, /Users/lajlev/web/victor/source/styles/vendor/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 39, /Users/lajlev/web/victor/source/styles/vendor/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 43, /Users/lajlev/web/victor/source/styles/vendor/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 47, /Users/lajlev/web/victor/source/styles/vendor/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 14, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+.alt {
+  background: #16191c; }
+  /* line 17, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+  .alt h2, .alt p {
+    color: #606367; }
+  /* line 20, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+  .alt .meta-text {
+    color: #2a2e32; }
+
+/* line 25, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+.l-tac {
+  text-align: center; }
+
+/* line 29, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+.l-vspace {
+  margin: 100px 0; }
+
+/* line 33, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+.rounded {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 37, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+.slider {
+  position: relative;
+  overflow: auto; }
+  /* line 42, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+  .slider li {
+    list-style: none;
+    float: left; }
+  /* line 79, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+  .slider .unslider-arrow {
+    z-index: 9999;
+    display: block;
+    height: 116px;
+    width: 116px;
+    -webkit-border-radius: 116px;
+    -moz-border-radius: 116px;
+    -ms-border-radius: 116px;
+    -o-border-radius: 116px;
+    border-radius: 116px;
+    font-size: 40px;
+    color: #4f555d;
+    padding: 40px;
+    position: absolute;
+    top: 40px;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: background 0.1s linear;
+    -o-transition: background 0.1s linear;
+    transition: background 0.1s linear; }
+    @media (max-width: 960px) {
+      /* line 79, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+      .slider .unslider-arrow {
+        display: none; } }
+    /* line 96, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+    .slider .unslider-arrow:hover, .slider .unslider-arrow:active {
+      background: #00a3cc;
+      color: #fff; }
+    /* line 100, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+    .slider .unslider-arrow.prev {
+      left: 0; }
+    /* line 103, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+    .slider .unslider-arrow.next {
+      right: 0; }
+
+/* line 11, /Users/lajlev/web/victor/source/styles/app.scss */
+body {
+  background: #1c1f23;
+  font-family: "brandon-grotesque", sans-serif;
+  color: #cbced3; }
+
+/* line 17, /Users/lajlev/web/victor/source/styles/app.scss */
+a {
+  text-decoration: none; }
+  /* line 20, /Users/lajlev/web/victor/source/styles/app.scss */
+  a.btn {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    padding: 18px 24px;
+    text-transform: uppercase;
+    -webkit-border-radius: 42px;
+    -moz-border-radius: 42px;
+    -ms-border-radius: 42px;
+    -o-border-radius: 42px;
+    border-radius: 42px; }
+  /* line 29, /Users/lajlev/web/victor/source/styles/app.scss */
+  a.btn-subtle {
+    color: #cbced3;
+    border: 2px solid #cbced3;
+    display: block; }
+    /* line 34, /Users/lajlev/web/victor/source/styles/app.scss */
+    a.btn-subtle:hover {
+      background: #f96138; }
+  /* line 38, /Users/lajlev/web/victor/source/styles/app.scss */
+  a.btn-cta {
+    background: #00a3cc; }
+    /* line 41, /Users/lajlev/web/victor/source/styles/app.scss */
+    a.btn-cta:hover {
+      background: #0093B8; }
+
+/* line 47, /Users/lajlev/web/victor/source/styles/app.scss */
+h1 {
+  font-size: 44px; }
+
+/* line 50, /Users/lajlev/web/victor/source/styles/app.scss */
+h2 {
+  font-size: 30px;
+  margin-bottom: 17px; }
+
+/* line 55, /Users/lajlev/web/victor/source/styles/app.scss */
+article p {
+  font-size: 20px;
+  font-family: "ff-tisa-web-pro", serif;
+  font-weight: 400;
+  line-height: 36px; }
+  /* line 61, /Users/lajlev/web/victor/source/styles/app.scss */
+  article p a {
+    color: #00a3cc; }
+    /* line 64, /Users/lajlev/web/victor/source/styles/app.scss */
+    article p a:hover {
+      color: #008fb3; }
+
+/* line 70, /Users/lajlev/web/victor/source/styles/app.scss */
+ul li {
+  list-style-type: none; }
+
+/* line 76, /Users/lajlev/web/victor/source/styles/app.scss */
+header {
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #cbced3;
+  font-size: 14px; }
+  /* line 86, /Users/lajlev/web/victor/source/styles/app.scss */
+  header ul.top-menu {
+    margin-top: 15px;
+    position: absolute;
+    left: 50px;
+    top: 50px; }
+    /* line 91, /Users/lajlev/web/victor/source/styles/app.scss */
+    header ul.top-menu li {
+      display: inline-block;
+      margin-right: 20px; }
+      /* line 95, /Users/lajlev/web/victor/source/styles/app.scss */
+      header ul.top-menu li a {
+        color: #cbced3;
+        display: block;
+        padding: 8px 10px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        border-radius: 20px; }
+        /* line 102, /Users/lajlev/web/victor/source/styles/app.scss */
+        header ul.top-menu li a:hover, header ul.top-menu li a.active {
+          background: #25292e; }
+  /* line 109, /Users/lajlev/web/victor/source/styles/app.scss */
+  header img.logo {
+    display: block;
+    width: 58px;
+    margin: 0px auto; }
+  /* line 116, /Users/lajlev/web/victor/source/styles/app.scss */
+  header .btn-subtle {
+    margin-top: 3px;
+    position: absolute;
+    right: 50px;
+    top: 50px; }
+
+/* line 123, /Users/lajlev/web/victor/source/styles/app.scss */
+footer {
+  background: #1c1f23;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #cbced3;
+  font-size: 14px; }
+  /* line 134, /Users/lajlev/web/victor/source/styles/app.scss */
+  footer .copyright {
+    position: absolute;
+    left: 50px;
+    top: 50px; }
+
+/* line 142, /Users/lajlev/web/victor/source/styles/app.scss */
+section.shots {
+  margin: 40px auto 100px;
+  max-width: 1020px;
+  text-align: center; }
+  /* line 147, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.shots a {
+    padding: 20px;
+    display: inline-block; }
+    /* line 151, /Users/lajlev/web/victor/source/styles/app.scss */
+    section.shots a img {
+      width: 200px;
+      height: 150px; }
+
+/* line 158, /Users/lajlev/web/victor/source/styles/app.scss */
+section.social {
+  text-align: center; }
+  /* line 5, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+  section.social:before, section.social:after {
+    content: " ";
+    display: block; }
+  /* line 9, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+  section.social:after {
+    clear: both; }
+  /* line 162, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.social .inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 20px 120px; }
+    /* line 5, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+    section.social .inner:before, section.social .inner:after {
+      content: " ";
+      display: block; }
+    /* line 9, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+    section.social .inner:after {
+      clear: both; }
+  /* line 168, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.social .meta-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block; }
+  /* line 175, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.social img {
+    display: inline-block; }
+  /* line 178, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.social p {
+    max-width: 600px;
+    margin: 0 auto; }
+    /* line 5, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+    section.social p:before, section.social p:after {
+      content: " ";
+      display: block; }
+    /* line 9, /Users/lajlev/web/victor/source/styles/_mixins.scss */
+    section.social p:after {
+      clear: both; }
+  /* line 183, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.social .btn-cta {
+    margin-top: 35px; }
+  /* line 189, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.social li.twitter h2 {
+    margin-top: 10px; }
+  /* line 195, /Users/lajlev/web/victor/source/styles/app.scss */
+  section.social li.instagram .instagram-image {
+    width: 153px;
+    height: 153px; }
